@@ -5,14 +5,14 @@
 /* ===== Profile Image ===== */
 
 .portrait-placeholder{
-    width:260px;
-    height:260px;
+    width:300px;
+    height:300px;
     border-radius:50%;
     overflow:hidden;
     display:flex;
     justify-content:center;
     align-items:centre;
-    background:transparent;
+    background:none;
 }
 
 .profile-photo{
