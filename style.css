@@ -5,13 +5,13 @@
 /* ===== Profile Image ===== */
 
 .portrait-placeholder{
-    width:60px;
+    width:260px;
     height:260px;
     border-radius:50%;
     overflow:hidden;
     display:flex;
     justify-content:center;
-    align-items:center;
+    align-items:right;
     background:transparent;
 }
 
