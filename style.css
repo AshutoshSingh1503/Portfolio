@@ -5,14 +5,14 @@
 /* ===== Profile Image ===== */
 
 .portrait-placeholder{
-    width:300px;
-    height:300px;
+    width:260px;
+    height:260px;
     border-radius:50%;
     overflow:hidden;
     display:flex;
     justify-content:center;
     align-items:centre;
-    background:none;
+    background:transparent;
 }
 
 .profile-photo{
@@ -21,13 +21,11 @@
     object-fit:cover;
     border-radius:50%;
     border:1px solid #8b5cf6;
-    box-shadow: 
-        0 0 25px rgba(139,92,246,.5);
-        0 0 35px rgba(139,92,246,.45);
-    transition:.4s;
+    box-shadow:0 0 25px rgba(139,92,246,.5);
+    transition:transform .3s;
 }
 
 .profile-photo:hover{
-    transform:scale(1.04);
+    transform:scale(1.05);
     transition:.4s;
 }
